@@ -1,4 +1,41 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hu"
+languageCode = 'ja'
+languageName = 'Japanese'
+defaultContentLanguage = 'ja'
+baseURL = 'http://localhost:1313/'
+title = 'Koya Blog'
+copyright = "&copy; 2025 Koya Masuda"
+theme = "PaperMod"
+
+[params]
+defaultTheme = 'auto'
+
+[params.homeInfoParams]
+Title = "Hi there wave"
+Content = "Can be Info, links, about..."
+
+[params.assets]
+favicon = '/img/favicon.ico'
+favicon16x16 = '/img/favicon-16x16.png'
+favicon32x32 = '/img/favicon-32x32.png'
+apple_touch_icon = '/img/apple-touch-icon.png'
+
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/koxya"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/koya-masuda"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://ruby.social/@koxya"
+
+[[params.socialIcons]]
+name = "Zenn"
+url = "https://zenn.dev/koxya"
+
+[[params.socialIcons]]
+name = "note"
+url = "https://note.com/koxya"
+
