@@ -1,8 +1,6 @@
 languageCode = 'ja'
 languageName = 'Japanese'
-defaultContentLanguage = 'ja'
-baseURL = 'http://localhost:1313/'
-title = 'Koya Blog'
+defaultContentLanguage = 'ja' baseURL = 'http://localhost:1313/' title = 'Koya Blog'
 copyright = "&copy; 2025 Koya Masuda"
 theme = "PaperMod"
 
@@ -39,3 +37,6 @@ url = "https://zenn.dev/koxya"
 name = "note"
 url = "https://note.com/koxya"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
