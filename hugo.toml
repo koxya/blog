@@ -11,7 +11,7 @@ defaultTheme = 'auto'
 
 [params.homeInfoParams]
 Title = "Hi there wave"
-Content = "Can be Info, links, about..."
+Content = "鋭意制作中"
 
 [params.assets]
 favicon = '/img/favicon.ico'
