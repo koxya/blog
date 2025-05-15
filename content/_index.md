@@ -2,6 +2,6 @@
 description: ""
 ---
 
-# Hi, there👏
+# Hi, folks👏
 
 Welcome to my blog!
