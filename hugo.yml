@@ -1,0 +1,54 @@
+languageCode: ja
+languageName: Japanese
+defaultContentLanguage: ja
+baseURL: http://localhost:1313/
+title: Koya Blog
+copyright: "&copy; 2025 Koya Masuda"
+theme: PaperMod
+enableEmoji: true
+enableRobotsTXT: true
+minify:
+  disableXML: true
+  minifyOutput: true
+permalinks:
+  posts: /:year/:month/:day/:contentbasename
+params:
+  env: production
+  DateFormat: 2006-01-02
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowRssButtonInSectionTermList: true
+  comments: false
+  homeInfoParams:
+    hiddenInHomeList: false
+  assets:
+    favicon: /img/favicon.ico
+    favicon16x16: /img/favicon-16x16.png
+    favicon32x32: /img/favicon-32x32.png
+    apple_touch_icon: /img/apple-touch-icon.png
+  socialIcons:
+    - name: x
+      url: https://x.com/koxya
+    - name: github
+      url: https://github.com/koya-masuda
+    - name: mastodon
+      url: https://ruby.social/@koxya
+    - name: zenn
+      url: https://zenn.dev/koxya
+    - name: note
+      url: https://note.com/koxya
+caches:
+  images:
+    dir: :cacheDir/images
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: posts
+      weight: 5
+    - identifier: tags
+      name: tags
+      url: tags/
+      weight: 25
