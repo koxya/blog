@@ -12,6 +12,11 @@ minify:
   minifyOutput: true
 permalinks:
   posts: /:year/:month/:day/:contentbasename
+assets:
+  favicon: '/img/favicon.ico'
+  favicon16x16: '/img/favicon-16x16.png'
+  favicon32x32: '/img/favicon-32x32.png'
+  apple_touch_icon: '/img/apple-touch-icon.png'
 params:
   env: production
   DateFormat: 2006-01-02
@@ -25,11 +30,6 @@ params:
     linkFullImages: true
   homeInfoParams:
     hiddenInHomeList: false
-  assets:
-    favicon: '/static/img/favicon.ico'
-    favicon16x16: '/static/img/favicon-16x16.png'
-    favicon32x32: '/static/img/favicon-32x32.png'
-    apple_touch_icon: '/static/img/apple-touch-icon.png'
   socialIcons:
     - name: x
       url: 'https://x.com/koxya'
