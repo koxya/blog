@@ -43,7 +43,7 @@ params:
       url: 'https://note.com/koxya'
 caches:
   images:
-    dir: :cacheDir/images'
+    dir: :cacheDir/images
 menu:
   main:
     - identifier: posts
