@@ -13,7 +13,7 @@ minify:
 permalinks:
   posts: /:year/:month/:day/:contentbasename
 params:
-  env: production
+  env: development # production
   DateFormat: 2006-01-02
   defaultTheme: auto
   ShowShareButtons: true
@@ -21,6 +21,8 @@ params:
   ShowBreadCrumbs: true
   ShowRssButtonInSectionTermList: true
   comments: false
+  cover:
+    linkFullImages: true
   homeInfoParams:
     hiddenInHomeList: false
   assets:
