@@ -1,7 +1,7 @@
 languageCode: ja
 languageName: Japanese
 defaultContentLanguage: ja
-baseURL: 'http://localhost:1313/'
+baseURL: 'https://koya-masuda.github.io/blog'
 title: 'Koya Blog'
 copyright: "&copy; 2025 Koya Masuda"
 theme: PaperMod
@@ -43,7 +43,7 @@ params:
       url: 'https://note.com/koxya'
 caches:
   images:
-    dir: ':cacheDir/images'
+    dir: :cacheDir/images'
 menu:
   main:
     - identifier: posts
