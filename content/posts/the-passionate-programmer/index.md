@@ -5,12 +5,6 @@ title: '情熱の燃やす先'
 category: ['books']
 tags: ['ポエム']
 weight: 1
-cover:
-  image: '/blog/img/the-passionate-programmer.png'
-  alt: "情熱を燃やすプログラマー"
-  caption: "情熱を燃やすプログラマー"
-  relative: true
-  linkFullImages: true
 ---
 
 ## オフショア開発 vs 高給プログラマー
