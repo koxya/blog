@@ -12,11 +12,6 @@ minify:
   minifyOutput: true
 permalinks:
   posts: /:year/:month/:day/:contentbasename
-assets:
-  favicon: '/img/favicon.ico'
-  favicon16x16: '/img/favicon-16x16.png'
-  favicon32x32: '/img/favicon-32x32.png'
-  apple_touch_icon: '/img/apple-touch-icon.png'
 params:
   env: production
   DateFormat: 2006-01-02
@@ -26,6 +21,11 @@ params:
   ShowBreadCrumbs: true
   ShowRssButtonInSectionTermList: true
   comments: false
+  assets:
+    favicon: "/blog/img/favicon.ico"
+    favicon16x16: '/blog/img/favicon-16x16.png'
+    favicon32x32: '/blog/img/favicon-32x32.png'
+    apple_touch_icon: '/blog/img/apple-touch-icon.png'
   cover:
     linkFullImages: true
   homeInfoParams:
@@ -34,7 +34,7 @@ params:
     - name: x
       url: 'https://x.com/koxya'
     - name: github
-      url: 'https://github.com/koya-masuda'
+      url: 'https://github.com/koxya'
     - name: mastodon
       url: 'https://ruby.social/@koxya'
     - name: zenn

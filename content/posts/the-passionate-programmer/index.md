@@ -6,7 +6,7 @@ category: ['books']
 tags: ['ポエム']
 weight: 1
 cover:
-  image: '/static/img/the-passionate-programmer.png'
+  image: '/blog/img/the-passionate-programmer.png'
   alt: "情熱を燃やすプログラマー"
   caption: "情熱を燃やすプログラマー"
   relative: true
